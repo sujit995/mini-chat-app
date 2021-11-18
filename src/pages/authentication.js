@@ -12,6 +12,7 @@ export default function Authentication() {
   return (
     <div className="authentication">
       <img src={AuthImage} className="auth-image" />
+      <h6>Signin here to chat with your friends</h6>
       <div className="google-button-wrapper mt-4" onClick={signInWithGoogle}>
         <div className="google-button-cover">
           <div className="google-image">
